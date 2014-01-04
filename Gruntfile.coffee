@@ -129,6 +129,13 @@ module.exports = (grunt) ->
           src:  '**/*'
           dest: 'build/img'
         }]
+      fonts:
+        files: [{
+          expand: true
+          cwd:  'assets/fonts'
+          src:  '**/*'
+          dest: 'build/fonts'
+        }]
 
     # Notification via Growl/OSX
     notify_hooks:
