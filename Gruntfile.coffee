@@ -57,6 +57,10 @@ module.exports = (grunt) ->
       gruntfile:
         files:    'Gruntfile.coffee'
         tasks:    ['coffeelint:gruntfile']
+      images:
+        files:    ['assets/img/**/*']
+        tasks:    ['copy:images']
+        options:  livereload: true
 
 
     # LINT
