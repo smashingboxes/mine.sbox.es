@@ -1,7 +1,17 @@
 .row.component
-  section.small-6.columns
+  section.small-8.columns
     i.icon
       img(src='img/minecraft-icon.png')
     header
       h4.subhead Our current server address is:
       h1 mine.sbox.es
+    .small-4.columns
+      ul.stats.small-box-grid-2
+        li
+          h4
+            strong Server Version:
+            | {{' ' + server.version}}
+        li
+          h4
+            strong Mod:
+            | {{' ' + server.mod}}
