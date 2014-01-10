@@ -162,8 +162,8 @@ module.exports = (grunt) ->
       dev:    ['watch', 'nodemon']
       clean:  ['clean:js', 'clean:css', 'clean:views', 'clean:images']
       build:  ['jade:all', 'stylus:all', 'coffee:all']
-      # options:
-      #   logConcurrentOutput: true
+      options:
+        logConcurrentOutput: true
 
 
   # TASKS
