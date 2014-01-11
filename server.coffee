@@ -12,7 +12,7 @@ httpProxy = require("http-proxy")
 #
 # This listens on port 8000 for incoming HTTP requests
 # and proxies them to port 9000
-httpProxy.createServer(5000, "localhost").listen 80
+# httpProxy.createServer(5000, "localhost").listen 80
 
 
 
@@ -27,5 +27,5 @@ app.use (req, res) ->
   res.sendfile __dirname + '/build/index.html'
 
 
-app.listen 5000, ->
-  console.log 'Listening on 5000'
+app.listen 80, ->
+  console.log 'Listening on 80'
