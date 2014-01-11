@@ -17,7 +17,8 @@
     "resolve": "~0.6.1",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
-    "coffee": "0.0.1"
+    "coffee": "0.0.1",
+    "http-proxy": "~0.10.4"
   },
   "devDependencies": {
     "load-grunt-tasks": "~0.1.0",
